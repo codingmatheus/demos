@@ -36,6 +36,10 @@ print(my_dict)  # Output: {'apple': 1, 'banana': 2, 'cherry': 3, 'date': 4}
 del my_dict['banana']
 print(my_dict)  # Output: {'apple': 1, 'cherry': 3, 'date': 4}
 
+# Generating json from dictionary
+import json
+print(json.dumps(my_dict))  # Output: {"apple": 1, "cherry": 3, "date": 4}
+
 
 
 
